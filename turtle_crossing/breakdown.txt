@@ -1,0 +1,5 @@
+1. Create the turtle at the bottom of the screen  
+2. Move the turtle with key and only move foward
+3. Create multiple random colors of cars
+4. Allow cars to move from right to left
+5. Scoreboard - update the scoreboard when the turtle cross and reset to original position. The speed of the cars moving will increase. if the turtle collides with the car, gameover
