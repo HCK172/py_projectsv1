@@ -22,11 +22,11 @@ while len(guessed_states) < 50:
     answer_state = screen.textinput(title= f"{len(guessed_states)}/50 states", prompt="What's the state name?").title()
 
     if answer_state == "Exit": 
-        missing_states = []
-        for state in all_states:
-            if state not in guessed_states:
-                missing_states.append(state)
-        print(missing_states)
+        missing_states = [ state for state in all_states if state not in guessed_states ]
+        #for state in all_states:
+        #    if state not in guessed_states:
+        #        missing_states.append(state)
+        #print(missing_states)
         break
 
     if answer_state in all_states:
