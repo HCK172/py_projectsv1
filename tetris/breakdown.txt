@@ -1,0 +1,6 @@
+Create the the grid
+Create the blocks and movement of the block 
+user can key press to rotate the block and drop the block down
+Check the block landing and stacking on blocks
+If blocks fill up a row, then the row is removed
+Game over the the block reach the top of the screen
